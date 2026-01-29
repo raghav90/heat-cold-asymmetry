@@ -2,11 +2,11 @@
 
 ## Downloading Data
 
-All data files are archived at Zenodo with DOI: **10.5281/zenodo.XXXXXXX**
+All data files are archived at Zenodo with DOI: **https://doi.org/10.5281/zenodo.18417305**
 
 Download directly:
 ```bash
-wget https://zenodo.org/records/XXXXXXX/files/heat_cold_data.tar.gz
+wget https://zenodo.org/records/18417305/heat_cold_data.tar.gz
 tar -xzf heat_cold_data.tar.gz
 ```
 
