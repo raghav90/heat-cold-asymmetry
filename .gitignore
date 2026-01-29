@@ -1,0 +1,61 @@
+# Data files - should be downloaded from external repository
+data/extreme_events/**/*.csv
+data/holidays/**/*.csv
+data/combined_census_tract_data.csv
+!data/README.md
+
+# Generated outputs and logs
+results/
+outputs/
+*.log
+*.csv.bak
+.ipynb_checkpoints/
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+.env
