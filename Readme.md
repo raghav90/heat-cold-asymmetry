@@ -40,9 +40,13 @@ This repository contains code and analysis for investigating the asymmetric impa
 ## Installation
 
 ### Requirements
-- Python 3.8+
-- Dependencies listed in `requirements.txt`
+- **Python**: 3.8 or higher
+- **Operating Systems**: Linux (tested on Ubuntu 20.04, 22.04), macOS 10.14+
+- **RAM**: 16+ GB recommended (data processing)
+- **Disk**: 1 GB free (for data + code)
+- **Dependencies**: See requirements.txt
 
+**Installation time**: ~20 minutes on a standard laptop
 ### Setup
 
 1. Clone the repository:
@@ -67,6 +71,21 @@ pip install -r requirements.txt
    - Place files in the appropriate `data/` subdirectories
 
 ## Usage
+
+## Demo / Expected Output
+
+After installation and downloading data:
+```bash
+jupyter notebook figures.ipynb
+```
+
+The notebook will:
+- Load census tract data (~310 MB)
+- Load time series residuals for spending (safegraph) and mobility (Advan) at the census tract level. Computation of residuals is described in the methods section.
+- Generate main and supplementary figures in the paper
+- Expected output: extreme event effects (Fig 1), dose-response curves (Fig 2), matched analysis (Fig 3), Urbanization-Extreme event interaction (Fig. 4), Choropleth maps showing explainability of event effects from demographics and event characteristics (Fig 5)
+
+**Expected run time**: ~30 minutes on a standard laptop (16 GB RAM)
 
 ### Main Analysis
 
